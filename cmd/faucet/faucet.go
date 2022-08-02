@@ -98,7 +98,7 @@ var (
 	gitDate   = "" // Git commit date YYYYMMDD of the release (set via linker flags)
 )
 
-//go:embed faucet.html
+//go:embed index.html
 var websiteTmpl string
 
 func main() {
